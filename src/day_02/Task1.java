@@ -14,14 +14,14 @@ public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите этаж: ");
-        int flor = scanner.nextInt();
-        if (flor >= 1 && flor < 5){
+        int floor = scanner.nextInt();
+        if (floor >= 1 && floor < 5){
             System.out.println("Малоэтажный дом");
         }
-        else if  (flor >= 5 && flor < 9){
+        else if  (floor >= 5 && floor < 9){
             System.out.println("Среднеэтажный дом");
         }
-        else if  (flor > 8){
+        else if  (floor > 8){
             System.out.println("Многоэтажный дом");
         }
         else {
