@@ -1,1 +1,1 @@
-# JavaMarathonAlishev
+My repository for learning Java
